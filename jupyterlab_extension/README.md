@@ -2,7 +2,7 @@
 
 This extension replaces all the "SWAN" strings which are located inside markdown cells (inside a Jupyter Lab NB) with the SWAN logo.
 
-![Screenshot image](snip.jpg)
+![Screenshot image](snip.JPG)
 
 ## Prerequisites
 
