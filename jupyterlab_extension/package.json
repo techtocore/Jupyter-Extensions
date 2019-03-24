@@ -1,0 +1,35 @@
+{
+  "name": "@techtocore/swan_logo",
+  "version": "1.0.0",
+  "description": "This extension replaces all the \"SWAN\" strings which are located inside markdown cells (inside a Notebook) with the SWAN logo.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "author": "Akash Ravi",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^0.19.1",
+    "@jupyterlab/apputils": "^0.19.1",
+    "@jupyterlab/cells": "^0.19.1",
+    "@jupyterlab/notebook": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/requirejs": "^2.1.31",
+    "typescript": "^3.3.4000"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}
